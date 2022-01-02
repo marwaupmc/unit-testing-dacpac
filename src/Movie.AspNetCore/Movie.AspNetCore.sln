@@ -5,6 +5,16 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.AspNetCore", "Movie.AspNetCore\Movie.AspNetCore.csproj", "{F009301C-DC25-4384-A8BE-E81CF9AE5F3A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - Solution Items", "{54A8CD84-0952-4270-8DFE-F27F71B412FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web API", "1 - Web API", "{8DA75666-5F87-43D7-99D1-D135E3BEB1DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business Logical Layer", "2 - Business Logical Layer", "{7F04B45F-63EF-472A-B0ED-4606B77EAE15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data Access Layer", "3 - Data Access Layer", "{9AE188D2-31BB-45D8-ACFA-BB7D7D386A32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - SQL Database", "4 - SQL Database", "{FCCD15C5-657E-48A9-8673-0D03095671C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F009301C-DC25-4384-A8BE-E81CF9AE5F3A} = {8DA75666-5F87-43D7-99D1-D135E3BEB1DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7BB2937-9B76-4123-8D04-76B29E04C0FE}
